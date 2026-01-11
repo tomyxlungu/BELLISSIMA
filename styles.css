@@ -146,7 +146,7 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5px;
+  padding: 20px;
 }
 
 .nav-logo {
@@ -718,6 +718,10 @@ ul {
 }
 
 @media (max-width: 576px) {
+  .nav-logo {
+    font-size: 1.5rem;
+  }
+
   .hero-title {
     font-size: 2.2rem;
   }
