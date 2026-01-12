@@ -445,7 +445,7 @@ ul {
    =========================== */
 .delivery-info {
   padding: 80px 20px;
-  background: url(photos/active-woman-using-phone-by-white-wall.jpg) center center/cover no-repeat;
+  background: url(photos/happy-good-looking-black-woman-wearing-grey-leather-coat-posing-beige-background-autumn-winter-fashion-concept.jpg) center top/cover no-repeat;
   color: white;
 }
 
@@ -763,5 +763,63 @@ ul {
 
   .contact-form {
     padding: 25px;
+  }
+}
+
+/* -----------------------
+   Desktop (>= 1280px)
+   ----------------------- */
+@media (min-width: 1280px) {
+  .hero-title {
+    font-size: 3.8rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.6rem;
+  }
+
+  .section-title {
+    font-size: 2.4rem;
+  }
+
+  .nav-list {
+    gap: 2.5rem;
+  }
+
+  .collections-grid,
+  .delivery-grid {
+    gap: 1.5rem;
+  }
+
+  .contact-form {
+    padding: 32px;
+  }
+}
+
+/* -----------------------
+   Wide screens (>= 1440px)
+   ----------------------- */
+@media (min-width: 1440px) {
+  .hero-title {
+    font-size: 4.4rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.8rem;
+  }
+
+  .section-title {
+    font-size: 2.6rem;
+  }
+
+  .nav-logo {
+    font-size: 2.2rem;
+  }
+
+  /* optionally constrain content width on very wide screens */
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
